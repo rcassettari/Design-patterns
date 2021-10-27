@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 Encapsula uma solicitação como um objeto, permitindo que clientes sejam parametrizados com diferentes solicitações e suportem operações que possam ser desfeitas. 
 
-Exemplo: [Command](https://github.com/rcassettari/Design-patterns/src/br/com/patterns/command/CommandTester.java) 
+Exemplo: [Command](https://github.com/rcassettari/Design-patterns/blob/master/src/br/com/patterns/command/CommandTester.java) 
 
 _________________________________________________________________________________________________________________
 ## Singleton
@@ -28,12 +28,12 @@ O construtor da classe fica como **privado** (private), sendo que não pode ser 
 A classe é final, pois não permite a criação de subclasses da própria classe.<br/>
 O acesso é permitido através do método que retorna a instância única da classe, ou faz a criação de uma, caso não tenha sido criada.<br/>
 ![sing](https://user-images.githubusercontent.com/85784665/136676567-752ede10-fd72-4875-846e-9a2fa261424d.png)<br/>
-Exemplo: [Singleton](https://github.com/rcassettari/Design-patterns/src/br/com/patterns/singleton/SingletonTester.java)
+Exemplo: [Singleton](https://github.com/rcassettari/Design-patterns/blob/master/src/br/com/patterns/singleton/SingletonTester.java)
 __________________________________________________________________________________________________________________
 ## Strategy
 Defina uma família de algorítmos e os encapsula, tornando-os intercambiáveis.
 
-Exemplo: [Strategy](https://github.com/rcassettari/Design-patterns/src/br/com/patterns/strategy/StrategyTester.java)
+Exemplo: [Strategy](https://github.com/rcassettari/Design-patterns/blob/master/src/br/com/patterns/strategy/StrategyTester.java)
 __________________________________________________________________________________________________________________
 Abaixo, seguem links de referência usados no projeto :
 
